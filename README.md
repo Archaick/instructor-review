@@ -1,4 +1,4 @@
-# Intstructor Review for UoPeople Students
+# Instructor Review for UoPeople Students
 # React + Firebase
 
 1. Clone the repository to your local machine.
