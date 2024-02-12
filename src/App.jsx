@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
-import CreatePost from "./pages/CreatePost";
-import Login from "./pages/Login";
+import Home from "./Home";
+import CreatePost from "./CreatePost";
+import Login from "./Login";
 import { useState } from "react";
 import { signOut } from "firebase/auth";
 import { auth } from "./firebase";
-import Github from "./pages/Github";
+import Github from "./Github";
 
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth") === true);

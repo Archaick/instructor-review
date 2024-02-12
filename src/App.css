@@ -1,7 +1,8 @@
-* {
+*,  *:before, *:after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
 }
 
 .App {
@@ -268,7 +269,7 @@ textarea {
 }
 
 .search-btn {
-  padding: 8px 12px;
+  padding: 9px;
   background-color: hsl(331, 99%, 46%);
   color: #fff;
   border: none;
